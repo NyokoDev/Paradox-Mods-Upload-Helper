@@ -1,0 +1,15 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Ensure the body and html take up the full height */
+}
+
+.PDXMODSASSISTANTPANEL {
+    position: fixed; /* Fixed position to cover the viewport */
+    top: 0;
+    left: 0;
+    width: 100vw; /* Use viewport width */
+    height: 100vh; /* Use viewport height */
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with 50% opacity */
+    z-index: 9999; /* Ensure it's on top of other elements */
+}

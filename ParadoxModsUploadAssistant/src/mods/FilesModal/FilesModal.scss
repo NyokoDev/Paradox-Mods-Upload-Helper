@@ -1,0 +1,86 @@
+.PDXMODSASSISTANTPANEL2 {
+    pointer-events: auto;
+    z-index: 2000;
+    position: absolute;
+    background-color: rgba(177, 177, 177, 0.5); /* Green with 50% transparency */
+    width: 500rem;
+    height: 2000rem;
+    right: 40rem;
+}
+
+.ThumbnailImage {
+    width: 500rem;
+    height: 500rem;
+}
+
+.TitleInput {
+    position: absolute;
+    top:550rem;
+    width: 500rem;
+    color: white;
+
+}
+
+.TitleLabel {
+    position: absolute;
+    text-transform: uppercase;
+    top:480rem;
+    width: 200rem;
+}
+
+.UploadButton{
+    position: absolute;
+    background-color: green;
+    top:700rem;
+    text-align: center;
+
+    width: 450rem;
+    right: 35rem;
+    z-index: 200000;
+}
+
+.SelectItemsButton {
+    position: absolute;
+    top:590rem;
+    right:40rem;
+}
+
+.ThumbUpdate {
+    position: absolute; /* Ensure the container has positioning context */
+}
+
+.ThumbUpdate > * {
+    position: absolute;
+    height: 120rem; /* Adjust to fit button size */
+    width: 120rem; /* Adjust to fit button size */
+    top: 200rem;
+    right: -170rem;
+}
+
+.ThumbUpdate > *:hover {
+    filter: invert(100%);
+
+
+}
+
+.UploadText {
+    position: absolute;
+    font-size: 100rem;
+    top: 500rem;
+    white-space: nowrap;
+    right: 900rem;
+}
+
+.ExitButton {
+    position: absolute;
+    font-size: 20rem;
+    top: 200rem;
+    background-color: green;
+    color: white; /* Ensures text is visible */
+    right: 50rem;
+    padding: 1rem; /* Adds some space around the text */
+    border: none; /* Removes default border if it's a <button> element */
+    cursor: pointer; /* Changes the cursor to a pointer when hovering */
+    pointer-events: all; /* Ensures it can receive pointer events */
+    text-align: center; /* Centers the text inside the button */
+}
